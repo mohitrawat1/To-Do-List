@@ -1,0 +1,95 @@
+body {
+    font-family: 'Source Sans', sans-serif;
+}
+
+
+.nav {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+.date {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+#taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+#addTaskButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.box {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through; 
+}
+
+
+.delete-button {
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    
+    .nav {
+        padding: 5px;
+    }
+
+    .nav a {
+        margin: 0 5px;
+    }
+
+   
+}
+
+@media (max-width: 576px) {
+    
+    .nav {
+        padding: 5px;
+    }
+
+    .nav a {
+        margin: 0 5px;
+    }
+
+    
+}
